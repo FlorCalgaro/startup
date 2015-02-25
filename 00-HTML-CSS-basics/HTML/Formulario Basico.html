@@ -1,0 +1,75 @@
+<!DOCTYPE HTML>
+<!-- Es la declaración de tipo de documento Siempre se debe hacer-->	
+	
+	<!-- es necesario que las páginas web indiquen el namespace asociado. Un namespace en un documento XML permite diferenciar las etiquetas y atributos
+	 que pertenecen a cada lenguaje. El namespace que utilizan todas las páginas XHTML (independientemente de la versión y del * es el sig:-->
+	
+	<html>
+		
+		<head>
+
+			<title> Formulario Basico </title>
+
+			<!-- Con esta sentencia soluciono el problema de acentos y eñes en toda la pagina-->
+			<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+			<!-- Uso el viewport para dispositivos moviles asi optimizar la vista de mi pag en los mismos  -->
+			<meta name="viewport" content="width=device-width, initial-scale=1" >
+		
+		</head>
+
+		<body>
+
+			<h3> Completar Formulario </h3>
+
+			<!--Creo un formulario basico con todo lo que va a contener-->
+			<form>
+				Nombre:
+				<input type="text" name="Nombre" value= "">
+
+				Apellido:
+				<input type="text" name="Apellido" value="">
+
+				<!--Me hace los espacio entre los bloques-->
+				<br>
+				
+				Correo Electronico:
+				<input type="text" name="CorreoElectronico" value="" placeholder="usuario@gmail.com">
+				
+				Fecha de Nacimiento:
+				
+				<!--inserto la fecha. sentencia implementada en Html5-->
+				<input type="date" name="fecha">
+			
+				<br>
+				
+				Deporte Favorito:
+				<select name="Deporte">
+					<!-- Con esta sentencia hago que por defecto me aparezca la palabra selecciona-->
+					<option value="" selected = "seleccionado" > -Seleccionar- </option>
+					<option value="Tennis">Tennis</option>
+					<option value="Futbol">Futbol</option>
+					<option value="Natacion">Natacion</option>
+					<option value="yoga">Yoga</option>
+
+				</select>
+			
+				 <br>
+
+				Biografia
+				<br>
+				<textarea name="descripcion" cols="100" rows="10" placeholder="Escribe acerca de Ti en pocas lineas."></textarea>
+			
+				<br>
+			
+			<!-- Creo el botones que ENVIA la informacion-->
+			<input type="button" name="btnEnviarForm " value="Enviar Formulario">
+			
+			<!-- Boton de reseteo de formulario-->
+			<input type="reset" name="BorrarForm" value="Borrar Formulario">
+
+
+			</form>
+		</body>
+	
+	</html>

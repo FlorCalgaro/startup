@@ -1,0 +1,100 @@
+/*Defino las distintas partes del Html como van a ser*/
+
+/*En este caso el cuerpo*/
+body {
+  background-color:#edd;
+}
+
+/*Como va a ser el Titulo*/
+h1 {
+  color:#0000cc;
+  font-family:times new roman;
+  font-size:25px;
+  text-align:center;
+  text-decoration:underline;
+
+}
+
+/*como va a ser el parrafo*/
+p {
+  color:#555555;
+  font-family:verdana;
+  text-align:justify;
+}
+
+h3 {
+	text-align:center;
+}
+
+h4 {
+	text-align:center;
+}
+
+
+
+/*CSS minimo para definir la estructura de una pag sin aplicar ningun estilo adicional. Este es un estilo a tres columnas.*/
+
+
+/*cabecera*/
+/*#header {
+	text-align: center;
+	width:100%;
+	background-color: #141414;
+	 
+}*/
+
+#header {
+	background:#FF00FF;
+	color: white;
+	height: 80px;
+	font-size: 46px;
+	text-align: center;
+	width: 100%;	
+}
+
+/*navegador/menu a la izquierda*/
+#nav {
+	font-size: 12px;
+	float: left;
+	width: 20%;
+	text-align: left;
+	background:#0000FF;
+}
+
+/*navegador/menu a la derecha*/
+#sidebar {
+	font-size: 10px;
+	float: right;
+	width: 30%;
+	background:#0000FF;
+
+}
+
+#content {
+	text-align: center;
+  	float: left;
+  	width: auto;
+  	font-size: 14px;
+}
+#content #principal {
+  text-align: justify;
+  float: left;
+  width: 70%;
+  font-size: 14px;
+}
+#content #secundario {
+  text-align: center;
+  float: left;
+  width: 70%;
+  font-size: 14px;
+}
+
+/*pie de pag*/
+#footer {
+	clear: both;
+	text-align: center;
+	font-size: 10px;
+	background: #FF00FF;
+
+
+}
